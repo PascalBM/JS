@@ -1,5 +1,19 @@
+@font-face {
+    font-family: myFont;
+    src: url("/font/PKMN RBYGSC.ttf");
+}
+.pokedex {
+    width: 100%;
+    padding-top: 100px;
+}
+* {
+    font-family: myFont;
+    text-transform: capitalize;
+}
+
 body {
     background: aliceblue;
+    margin-top: 55px;
 }
 
 header {
